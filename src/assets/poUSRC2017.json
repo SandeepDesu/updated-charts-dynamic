@@ -1,0 +1,120 @@
+{  "nodes": [
+    {
+      "name": "Other"
+    },
+    {
+      "name": "Credit"
+    },
+    {
+      "name": "FA"
+    },
+    {
+      "name": "OA"
+    },
+    {
+      "name": "Quantity Decrease"
+    },
+    {
+      "name": "BA"
+    },
+    {
+      "name": "Rejection"
+    },
+    {
+      "name": "Terms of Payment Key"
+    },
+    {
+      "name": "ZUS Code - Quantity Decrease"
+    },
+    {
+      "name": "Quantity Reduction"
+    },
+    {
+      "name": "Overall status of credit checks"
+    },
+    {
+      "name": "Customer Number"
+    },
+    {
+      "name": "Settlement debit memo ? system generated"
+    },
+    {
+      "name": "ZUS Code - Quantity Decrease via Rejection"
+    },
+    {
+      "name": "Mkt Prg Man. Entry"
+    }
+  ],
+  "links": [
+    {
+      "source": 5,
+      "target": 0,
+      "value": 1243
+    },
+    {
+      "source": 2,
+      "target": 0,
+      "value": 2497
+    },
+    {
+      "source": 3,
+      "target": 0,
+      "value": 2454
+    },
+    {
+      "source": 3,
+      "target": 1,
+      "value": 2585691
+    },
+    {
+      "source": 2,
+      "target": 4,
+      "value": 299423
+    },
+    {
+      "source": 2,
+      "target": 6,
+      "value": 2395
+    },
+    {
+      "source": 2,
+      "target": 8,
+      "value": 4484
+    },
+    {
+      "source": 2,
+      "target": 9,
+      "value": 308868
+    },
+    {
+      "source": 3,
+      "target": 10,
+      "value": 6145386
+    },
+    {
+      "source": 3,
+      "target": 11,
+      "value": 14264
+    },
+    {
+      "source": 5,
+      "target": 12,
+      "value": 18005
+    },
+    {
+      "source": 2,
+      "target": 13,
+      "value": 55855
+    },
+    {
+      "source": 3,
+      "target": 13,
+      "value": 1402
+    },
+    {
+      "source": 5,
+      "target": 14,
+      "value": 36437
+    }
+  ]
+}

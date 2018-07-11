@@ -1,0 +1,53 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+
+        </div>
+
+    </div>
+    <div class="row ">
+
+        <div class="col-md-3">
+            <div class="card-body options-body">
+                <div class="form-group">
+                    <select class="form-control" (change)="changeChart($event.target.value)">
+                        <option value="line">Line-Chart</option>
+                        <option value="bar">Bar-Chart</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>X - axis</label>
+                    <input type="number" class="form-control" #xAxis/>
+                </div>
+                <div class="form-group">
+                    <label>Y - axis</label>
+                    <input type="number" class="form-control" #yAxis/>
+                </div>
+                <button type="submit" class="btn btn-success" (click)="onSubmitValue(xAxis.value,yAxis.value)">Submit</button>
+            </div>
+        </div>
+
+        <div class="col-md-5">
+            <div class="card-body options-body">
+                <app-barchart *ngIf="displayBarChart" [Source]="data"> </app-barchart>
+                <app-linechart *ngIf="displayLineChart" [Source]="data"> </app-linechart>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <table class="table table-bordered">
+                <thead>
+                    <th>X</th>
+                    <th>Y</th>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let row of table">
+                        <td>{{row.x}}</td>
+                        <td>
+                            {{row.y}}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

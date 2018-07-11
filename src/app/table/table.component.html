@@ -1,0 +1,14 @@
+<div class="table-responsive" [hidden]="Hidden">
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th *ngFor="let h of headers">{{h}}</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let row of data">
+      <td *ngFor="let cell of row">{{cell}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
